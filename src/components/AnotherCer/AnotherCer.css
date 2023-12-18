@@ -1,0 +1,19 @@
+.another__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  /* height: 100vh; */
+}
+
+.another__card > img {
+  width: 100%;
+}
+
+.another__card > h2 {
+  position: absolute;
+  top: 53%;
+  left: 30%;
+}
